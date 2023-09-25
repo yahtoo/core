@@ -19,7 +19,7 @@ use rules_tokens::core::tokens::RulesTokens::{ ContractState as RulesTokensContr
 use rules_tokens::core::data::CardModelTrait;
 use rules_tokens::core::tokens::TokenIdTrait;
 use rules_tokens::core::voucher::Voucher;
-use rules_utils::utils::partial_eq::SpanPartialEq;
+// use rules_utils::utils::partial_eq::SpanPartialEq;
 use super::mocks::signer::Signer;
 use super::mocks::receiver::Receiver;
 use super::utils;
