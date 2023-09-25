@@ -8,10 +8,10 @@ name = "rules_tokens"
 # See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest
 
 [dependencies]
-rules_erc1155 = { git = "https://github.com/ruleslabs/starknet-erc-1155.git" }
-messages = { git = "https://github.com/ruleslabs/starknet-messages.git" }
-rules_utils = { git = "https://github.com/ruleslabs/starknet-utils.git" }
-starknet = ">=2.1.0-rc0"
+rules_erc1155 = { git = "https://github.com/yahtoo/starknet-erc-1155.git" }
+messages = { git = "https://github.com/yahtoo/starknet-messages.git" }
+rules_utils = { git = "https://github.com/yahtoo/starknet-utils.git" }
+starknet = "2.2"
 
 [[target.starknet-contract]]
 # Enable Sierra codegen.
